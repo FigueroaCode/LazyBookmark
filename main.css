@@ -1,0 +1,52 @@
+body {
+    width: 350px;
+    background-color: cornsilk;
+}
+
+.title {
+    font-family: cursive;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-btn {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightslategray;
+    color: white;
+    padding: 0.5em 2em;
+    margin-bottom: 1em;
+}
+
+.basic-btn:hover {
+    cursor: pointer;
+}
+
+.url-list {
+
+}
+
+.url-item {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.url-title {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.url-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.url-btn:hover {
+    cursor: pointer;
+}
